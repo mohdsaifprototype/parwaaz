@@ -1,0 +1,141 @@
+/* CSS resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    border: 2px solid red;
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    background-color: white;
+    border-radius: 3px;
+}
+
+.navigation ul li a {
+    margin: 4px 10px;
+}
+
+a:hover {
+    box-shadow: 1px 1px 113px -13px #2c4ee3, inset 1px 1px 113px -13px #ff4d00;
+}
+
+.container {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+iframe {
+    width: 100%;
+    height: 572px;
+}
+
+.parwaaz {
+    font-family: "coco-sharp", sans-serif;
+    font-size: 8.8rem;
+    text-align: center;
+}
+
+.cards {
+    /* display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto; */
+    /* justify-content: space-between; */
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.card {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    align-self: center;
+    justify-self: center;
+    width: 300px;
+}
+
+.fixed-links {
+    width: 50px;
+    list-style: none;
+    border: 3px solid slateblue;
+    border-radius: 3px;
+    position: fixed;
+    top: 300px;
+}
+
+.fixed-link {
+    margin: 4px 2px;
+    padding: 5px 2px;
+}
+
+/* Style for texts */
+.text-center {
+    text-align: center;
+}
+
+.coco-font {
+    font-family: "coco-sharp", sans-serif;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.size-1 {
+    font-size: 2rem;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.primary-font {
+    font-size: 5rem;
+}
+
+.seconday-font {
+    font-size: 3rem;
+}
+
+.font-1 {
+    font-family: 'PT Serif', serif;
+}
+
+.font-2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.font-3 {
+    font-family: 'Merriweather', serif;
+}
