@@ -1,3 +1,25 @@
+:root {
+    --brand-color1: #2c4ee3;
+    --brand-color2: #ff4d00;
+    --brand-color3: purple;
+    --brand-font: "coco-sharp", sans-serif;
+    --font1: 'PT Serif', serif;
+    --font2: 'Libre Baskerville', serif;
+    --font3: 'Merriweather', serif;
+    --size1: 6rem;
+    --size2: 5rem;
+    --size3: 4rem;
+    --size4: 3rem;
+    --size5: 2rem;
+    --size6: 1rem;
+    --s1: 6em;
+    --s2: 5em;
+    --s3: 4em;
+    --s4: 3em;
+    --s5: 2em;
+    --s6: 1em;
+}
+
 /* CSS resets */
 * {
     margin: 0;
@@ -5,8 +27,61 @@
     box-sizing: border-box;
 }
 
+/* Style for texts */
+body {
+    font-family: var(--font1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.coco-font {
+    font-family: var(--brand-font);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.primary-font {
+    font-family: var(--font1);
+}
+
+.seconday-font {
+    font-family: var(--font2);
+}
+
+
+/* ******************************************* */
+.container {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nav-menu {
+    background-color: var(--brand-color1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100vw;
+    padding: 0.5rem;
+}
+
 .navbar {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     /* align-content: center; */
     justify-content: space-between;
@@ -14,45 +89,58 @@
     flex-wrap: wrap;
 }
 
-.navigation ul li {
+.logo {
+    display: inline-block;
+    background-color: white;
+    border-radius: 3px;
+    max-height: 3.5rem;
+    max-width: 3.5rem;
+}
+
+.nav {
+    display: block;
+}
+
+.nav ul li {
     list-style: none;
     display: inline-block;
 }
 
-.navigation ul li a {
+/* **************Nav links*********************** */
+.nav-link {
     text-decoration: none;
     color: white;
-}
-
-.logo {
-    background-color: white;
+    font-size: 1.5rem;
+    padding: 5px 8px;
     border-radius: 3px;
+    margin: 0 3px;
+    background-color: #2cafe37e;
 }
 
-.navigation ul li a {
-    margin: 4px 10px;
+.nav-link:hover {
+    transition: 0.3s;
+    color: yellow;
+    font-size: 1.6rem;}
+
+.nav-link:active {
+    transition: 0.1s;
+    color: orange;
 }
 
-a:hover {
-    box-shadow: 1px 1px 113px -13px #2c4ee3, inset 1px 1px 113px -13px #ff4d00;
+.nav-link:visited {
+    color: rgb(189, 185, 185);
 }
-
-.container {
-    max-width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-}
+/* ************************************************** */
 
 iframe {
     width: 100%;
     height: 572px;
+    margin-top: 5rem;
 }
 
 .parwaaz {
-    font-family: "coco-sharp", sans-serif;
-    font-size: 8.8rem;
+    font-family: var(--brand-font);
+    font-size: var(--size1);
     text-align: center;
 }
 
@@ -91,51 +179,10 @@ iframe {
     border: 3px solid slateblue;
     border-radius: 3px;
     position: fixed;
-    top: 300px;
+    top: 30%;
 }
 
 .fixed-link {
     margin: 4px 2px;
     padding: 5px 2px;
-}
-
-/* Style for texts */
-.text-center {
-    text-align: center;
-}
-
-.coco-font {
-    font-family: "coco-sharp", sans-serif;
-}
-
-.bold {
-    font-weight: bolder;
-}
-
-.size-1 {
-    font-size: 2rem;
-}
-
-body {
-    font-family: 'PT Serif', serif;
-}
-
-.primary-font {
-    font-size: 5rem;
-}
-
-.seconday-font {
-    font-size: 3rem;
-}
-
-.font-1 {
-    font-family: 'PT Serif', serif;
-}
-
-.font-2 {
-    font-family: 'Libre Baskerville', serif;
-}
-
-.font-3 {
-    font-family: 'Merriweather', serif;
 }
