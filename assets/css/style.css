@@ -172,9 +172,13 @@ iframe {
 }
 
 .grid-card {
-    border: 3px solid pink;
-    border-radius: 3px;
+    /* border: 3px solid pink;
+    border-radius: 3px; */
     text-align: center;
+}
+
+.grid-card img{
+    border-radius: 3px;
 }
 
 .fixed-links {
@@ -205,7 +209,7 @@ iframe {
     width: 100vw;
     height: fit-content;
     position: relative;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     padding: 10px 5px;
 }
