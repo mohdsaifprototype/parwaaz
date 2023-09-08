@@ -95,6 +95,9 @@ h6 {
 
 
 /* ******************************************* */
+main{
+    min-height: calc(100vh - 18vh);
+}
 .section {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -156,6 +159,7 @@ h6 {
     border-radius: 3px;
     margin: 0 3px;
     background-color: #2cafe342;
+    
 }
 
 .nav-link:hover {
@@ -222,9 +226,10 @@ iframe {
     /* border: 3px solid slateblue; */
     border-radius: 3px;
     position: fixed;
-    top: 30%;
+    bottom: 30%;
     padding: 0.1rem;
     background-color: rgba(255, 255, 255, 0.579);
+    z-index: 4;
 }
 
 .fixed-link {
