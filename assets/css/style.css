@@ -189,7 +189,9 @@ iframe {
     font-family: var(--brand-font);
     font-size: var(--size1);
     text-transform: uppercase;
+    color: #ff4d00;
 	text-align: center;
+    text-shadow: 2px 3px 3px blue;
 }
 
 .grid-container {
