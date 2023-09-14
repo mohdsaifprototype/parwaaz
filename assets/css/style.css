@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Fonts that can be used from the above import statement */
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Merriweather', serif;
+font-family: 'PT Serif', serif; */
+
 :root {
     --brand-color1: #2c4ee3;
     --brand-color2: #ff4d00;
@@ -41,12 +47,12 @@ body {
     /* Smooth scrolling behavior */
     scroll-behavior: smooth;
 
-    background-color: black;
+    /* background-color: black; */
 }
 
 body::before {
     content: "";
-    background: url(https://picsum.photos/3000/2000) no-repeat center center/cover fixed;
+    background: url(https://picsum.photos/3000/2000) black no-repeat center center/cover fixed;
     width: 100vw;
     height: 100vh;
     position: fixed;

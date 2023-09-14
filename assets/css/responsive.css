@@ -53,10 +53,11 @@
         justify-content: space-around;
         align-items: center;
         bottom: 0;
+        height: 50px;
     }
 
     .fixed-link {
-        width: 4rem;
+        width: 40px;
     }
 }
 
