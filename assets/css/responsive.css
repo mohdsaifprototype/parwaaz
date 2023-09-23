@@ -1,7 +1,7 @@
 /* For mobile S */
 @media only screen and (max-width: 320px) {
     body {
-        background: red;
+        background: #000;
     }
 
     .body::before {
@@ -67,7 +67,7 @@
 /* For mobile M*/
 @media only screen and (min-width:321px) and (max-width: 376px) {
     body {
-        background: purple;
+        background: #000;
     }
 
     .body::before {
@@ -83,7 +83,7 @@
         opacity: 80%;
     }
     .parwaaz {
-        font-size: var(--size3);
+        font-size: 3.5rem;
     }
 
     .nav-link {
