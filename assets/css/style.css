@@ -222,6 +222,10 @@ iframe {
     text-shadow: 2px 3px 3px blue;
 }
 
+.in-shadow{
+    box-shadow: inset 0px 0px 127px 55px #63ff23, inset 0px 1px 751px 151px #e3ac2c;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -284,7 +288,7 @@ iframe {
 }
 
 .home {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .container-padding {
