@@ -1,2 +1,2 @@
 # parwaaz
-This repo is for www.parwwazedu.com
+This repo is for www.parwaazedu.com
